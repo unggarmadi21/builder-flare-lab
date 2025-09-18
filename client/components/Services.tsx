@@ -9,9 +9,7 @@ export default function Services() {
           <div className="text-secondary font-work-sans font-bold text-lg uppercase tracking-[2.88px] mb-4">
             Care you can believe in
           </div>
-          <h2 className="font-yeseva text-3xl text-primary">
-            Our Services
-          </h2>
+          <h2 className="font-yeseva text-3xl text-primary">Our Services</h2>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -25,7 +23,9 @@ export default function Services() {
             <div className="grid grid-cols-2 gap-8 mb-12">
               <div className="flex items-center gap-4">
                 <div className="w-4 h-4 rounded-full bg-secondary"></div>
-                <span className="font-work-sans text-black">A Passion for Healing</span>
+                <span className="font-work-sans text-black">
+                  A Passion for Healing
+                </span>
               </div>
               <div className="flex items-center gap-4">
                 <div className="w-4 h-4 rounded-full bg-secondary"></div>
@@ -41,7 +41,9 @@ export default function Services() {
               </div>
               <div className="flex items-center gap-4">
                 <div className="w-4 h-4 rounded-full bg-secondary"></div>
-                <span className="font-work-sans text-black">A Legacy of Excellence</span>
+                <span className="font-work-sans text-black">
+                  A Legacy of Excellence
+                </span>
               </div>
               <div className="flex items-center gap-4">
                 <div className="w-4 h-4 rounded-full bg-secondary"></div>
@@ -52,14 +54,16 @@ export default function Services() {
             {/* Description */}
             <div className="space-y-4">
               <p className="text-black font-work-sans leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat 
-                scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare 
-                ornare Convallis felis vitae tortor augue. Velit nascetur proin massa in. 
-                Consequat faucibus porttitor enim et.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                placerat scelerisque tortor ornare ornare. Quisque placerat
+                scelerisque tortor ornare ornare Convallis felis vitae tortor
+                augue. Velit nascetur proin massa in. Consequat faucibus
+                porttitor enim et.
               </p>
               <p className="text-black font-work-sans leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat 
-                scelerisque. Convallis felis vitae tortor augue. Velit nascetur proin massa in.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                placerat scelerisque. Convallis felis vitae tortor augue. Velit
+                nascetur proin massa in.
               </p>
             </div>
           </div>
@@ -83,7 +87,9 @@ export default function Services() {
               </div>
               <h4 className="font-work-sans text-accent">Cardiogram</h4>
               <div className="absolute bottom-0 left-0 right-0 bg-secondary rounded-b-lg p-3">
-                <span className="text-accent font-work-sans text-sm">View All</span>
+                <span className="text-accent font-work-sans text-sm">
+                  View All
+                </span>
               </div>
             </div>
 
@@ -111,7 +117,7 @@ export default function Services() {
           {/* Right Images */}
           <div className="hidden lg:block space-y-6">
             <div className="relative">
-              <img 
+              <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/8f8a2c0d437f246aeb67c5fdb04eed0a1cc1c146?width=648"
                 alt="Medical Professional"
                 className="w-full h-48 object-cover rounded-lg"
@@ -124,9 +130,9 @@ export default function Services() {
                 </div>
               </div>
             </div>
-            
+
             <div className="relative">
-              <img 
+              <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/ff9bf4ef8f0d6a313853340e1db5b61a75278ddf?width=648"
                 alt="Medical Team"
                 className="w-full h-48 object-cover rounded-lg"

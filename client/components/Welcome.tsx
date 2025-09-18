@@ -13,9 +13,10 @@ export default function Welcome() {
             A Great Place to Receive Care
           </h2>
           <p className="text-black font-work-sans max-w-2xl mx-auto leading-relaxed mb-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat 
-            scelerisque tortor ornare ornare. Convallis felis vitae tortor augue. Velit 
-            nascetur proin massa in. Consequat faucibus porttitor enim et.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+            placerat scelerisque tortor ornare ornare. Convallis felis vitae
+            tortor augue. Velit nascetur proin massa in. Consequat faucibus
+            porttitor enim et.
           </p>
           <button className="flex items-center gap-2 mx-auto text-primary font-work-sans hover:gap-3 transition-all">
             Learn More
@@ -25,16 +26,16 @@ export default function Welcome() {
 
         {/* Team Image */}
         <div className="relative">
-          <img 
+          <img
             src="https://api.builder.io/api/v1/image/assets/TEMP/f80e38bd10f05ae75aacb000c378b42c9edcacd4?width=1984"
             alt="Medical Team"
             className="w-full h-64 object-cover rounded-lg"
           />
-          
+
           {/* Decorative Circles */}
           <div className="absolute -top-8 -right-8 w-32 h-32 rounded-full bg-accent/50"></div>
           <div className="absolute -bottom-8 -left-8 w-24 h-24 rounded-full bg-secondary/30"></div>
-          
+
           {/* Progress Bars */}
           <div className="absolute bottom-0 left-0 right-0 h-2 bg-white/20 rounded-b-lg overflow-hidden">
             <div className="h-full flex">

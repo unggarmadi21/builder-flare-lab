@@ -7,38 +7,38 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Navigation Menu */}
         <nav className="flex items-center gap-8">
-          <a 
-            href="/" 
+          <a
+            href="/"
             className="text-accent font-work-sans font-semibold text-lg"
           >
             Home
           </a>
-          <a 
-            href="/about" 
+          <a
+            href="/about"
             className="text-white font-work-sans text-lg hover:text-accent transition-colors"
           >
             About us
           </a>
-          <a 
-            href="/services" 
+          <a
+            href="/services"
             className="text-white font-work-sans text-lg hover:text-accent transition-colors"
           >
             Services
           </a>
-          <a 
-            href="/doctors" 
+          <a
+            href="/doctors"
             className="text-white font-work-sans text-lg hover:text-accent transition-colors"
           >
             Doctors
           </a>
-          <a 
-            href="/news" 
+          <a
+            href="/news"
             className="text-white font-work-sans text-lg hover:text-accent transition-colors"
           >
             News
           </a>
-          <a 
-            href="/contact" 
+          <a
+            href="/contact"
             className="text-white font-work-sans text-lg hover:text-accent transition-colors"
           >
             Contact
@@ -55,9 +55,7 @@ export default function Navbar() {
           </div>
 
           {/* Appointment Button */}
-          <Button 
-            className="bg-accent text-primary font-work-sans font-medium px-8 py-3 rounded-full hover:bg-accent/90 flex items-center gap-2"
-          >
+          <Button className="bg-accent text-primary font-work-sans font-medium px-8 py-3 rounded-full hover:bg-accent/90 flex items-center gap-2">
             <Calendar className="w-4 h-4" />
             Appointment
           </Button>

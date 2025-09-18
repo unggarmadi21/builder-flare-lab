@@ -64,9 +64,16 @@ export default {
         },
       },
       fontFamily: {
-        'yeseva': ['Yeseva One', 'serif'],
-        'work-sans': ['Work Sans', 'sans-serif'],
-        'sans': ['Work Sans', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+        yeseva: ["Yeseva One", "serif"],
+        "work-sans": ["Work Sans", "sans-serif"],
+        sans: [
+          "Work Sans",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif",
+        ],
       },
       borderRadius: {
         lg: "var(--radius)",

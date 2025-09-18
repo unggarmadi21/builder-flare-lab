@@ -14,15 +14,15 @@
    */
   :root {
     /* Medical Website Color Palette */
-    --white: 184 100% 99%;        /* #FCFEFE */
-    --primary: 229 77% 26%;       /* #1F2B6C */
-    --accent: 216 79% 88%;        /* #BFD2F8 */
-    --secondary: 199 87% 52%;     /* #159EEC */
-    --black: 240 4% 13%;          /* #212124 */
+    --white: 184 100% 99%; /* #FCFEFE */
+    --primary: 229 77% 26%; /* #1F2B6C */
+    --accent: 216 79% 88%; /* #BFD2F8 */
+    --secondary: 199 87% 52%; /* #159EEC */
+    --black: 240 4% 13%; /* #212124 */
 
     /* Semantic color mappings */
-    --background: 184 100% 99%;   /* white */
-    --foreground: 240 4% 13%;     /* black */
+    --background: 184 100% 99%; /* white */
+    --foreground: 240 4% 13%; /* black */
 
     --card: 184 100% 99%;
     --card-foreground: 240 4% 13%;
@@ -107,20 +107,31 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family:
+      "Work Sans",
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      Roboto,
+      sans-serif;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Yeseva One', serif;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Yeseva One", serif;
   }
 }
 
 @layer utilities {
   .font-yeseva {
-    font-family: 'Yeseva One', serif;
+    font-family: "Yeseva One", serif;
   }
 
   .font-work-sans {
-    font-family: 'Work Sans', sans-serif;
+    font-family: "Work Sans", sans-serif;
   }
 }
